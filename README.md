@@ -12,24 +12,28 @@ In this analysis, a credit card credit dataset from LendingClub will be run thro
 * RandomOverSampler
   * Balanced accuracy score of .6182
   * High-Risk recall of .55
+  
 ![ROS_Scores](https://user-images.githubusercontent.com/95837693/164953010-6c307b2d-2034-4061-aab8-ea2f86a103d8.PNG)
 
 * SMOTE
- * Balanced accuracy score of .6547
- * High-Risk recall of .57
+  * Balanced accuracy score of .6547
+  * High-Risk recall of .57
+ 
 ![SMOTE_Scores](https://user-images.githubusercontent.com/95837693/164953070-69f56b70-8a60-4d36-a556-ede94f39102a.PNG)
 
 ### Undersample 
 * ClusterCentroids
   * Balanced accuracy score of .5558 
   * High-Risk recall of .57
-![CC_Scores](https://user-images.githubusercontent.com/95837693/164953085-14baa952-75dc-46bf-8cde-dd95f692706f.PNG)
+
+![CC_Scores](https://user-images.githubusercontent.com/95837693/165206350-2e2b3f45-aebb-44e3-8735-30a65e97c40c.PNG)
 
 ### Combonation Oversample and Undersample 
 * SMOTEENN 
   * Balanced accuracy score of .6337
   * High-Risk recall of .69
-![SMOTEEN_Scores](https://user-images.githubusercontent.com/95837693/164953097-0791c2a8-d289-49e5-8510-15f81deb0614.PNG)
+
+![SMOTEEN_Scores](https://user-images.githubusercontent.com/95837693/165206360-68f69423-2222-40f5-b14c-4d2cc0bde66e.PNG)
 
 ### Ensemble Classifiers 
 * BalancedRandomForestClassifier 
