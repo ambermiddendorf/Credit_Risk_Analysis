@@ -21,14 +21,14 @@ In this analysis, a credit card credit dataset from LendingClub will be run thro
 
 ### Undersample 
 * ClusterCentroids
-  * Balanced accuracy score of .6547 
-  * High-Risk recall of .55
+  * Balanced accuracy score of .5558 
+  * High-Risk recall of .57
 ![CC_Scores](https://user-images.githubusercontent.com/95837693/164953085-14baa952-75dc-46bf-8cde-dd95f692706f.PNG)
 
 ### Combonation Oversample and Undersample 
 * SMOTEENN 
-  * Balanced accuracy score of .5442
-  * High-Risk recall of .72
+  * Balanced accuracy score of .6337
+  * High-Risk recall of .69
 ![SMOTEEN_Scores](https://user-images.githubusercontent.com/95837693/164953097-0791c2a8-d289-49e5-8510-15f81deb0614.PNG)
 
 ### Ensemble Classifiers 
